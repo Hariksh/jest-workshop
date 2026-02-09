@@ -45,7 +45,7 @@ List each test you wrote and briefly explain **what bug or regression it prevent
 ## CI Pipeline (if implemented)
 
 - Did CI pass successfully? Yes
-- GitHub Actions Run URL: Available under Actions tab after pushing to GitHub
+- GitHub Actions Run URL: https://github.com/Hariksh/jest-workshop/actions
 
 ---
 
