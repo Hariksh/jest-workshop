@@ -24,3 +24,8 @@ test("Should apply FLAT50 coupon for $50 flat discount", () => {
   const result = calculateFinalAmount(200, "FLAT50");
   expect(result).toBe(150);
 });
+
+test("Should handle case-insensitive coupon codes", () => {
+  const result = calculateFinalAmount(500, "save10");
+  expect(result).toBe(450);
+});
